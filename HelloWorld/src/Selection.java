@@ -179,6 +179,9 @@ System.out.println();
 System.out.println();
 System.out.println();
 
+/**
+ * 实心菱形
+ */
 for (int i = 1; i <= a; i++) {
   for (int k = 1; k <= a-i;k++){
     System.out.print(" ");
