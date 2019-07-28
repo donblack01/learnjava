@@ -39,10 +39,25 @@ public class Selection {
     // break;
 
     // }
+    int a = 5;
+/**
+ * 普通金字塔
+ */
+
+ for(int i = 1;i<=a;i++){
+   for(int j = 1;j <=i; j++){
+     System.out.print("*");
+   }
+   System.out.println(" ");
+ }
+
+
+
+
+
     /**
      * 金字塔
      */
-    int a = 5;
     for (int i = 1; i <= a; i++) {
       for (int k = 1; k <= a-i;k++){
         System.out.print(" ");
